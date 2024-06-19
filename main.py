@@ -13,7 +13,7 @@ coco_model = YOLO('yolov8n.pt')
 license_plate_detector = YOLO('C:/Users/Daniel/Desktop/Coding/VRITIKA_Internship/number_plate_detection/models/license_plate_detector.pt')
 
 # Load video
-cap = cv2.VideoCapture('./parklowcut.mp4')
+cap = cv2.VideoCapture('./video.mp4')
 vehicles = [2, 3, 5, 7]
 
 # Read frames
