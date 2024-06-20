@@ -10,7 +10,7 @@ mot_tracker = Sort()
 
 # Load models
 coco_model = YOLO('yolov8n.pt')
-license_plate_detector = YOLO('C:/Users/Daniel/Desktop/Coding/VRITIKA_Internship/number_plate_detection/models/license_plate_detector.pt')
+license_plate_detector = YOLO('./models/license_plate_detector.pt')
 
 # Load video
 cap = cv2.VideoCapture('./video.mp4')
